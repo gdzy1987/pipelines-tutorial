@@ -75,7 +75,7 @@ spec:
           - name: source
             resource: ui-repo
       runAfter:
-        - build-voe
+        - build-ui
         - update-api-image
 
     - name: update-ui-image
